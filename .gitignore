@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+poetry.lock
+Set-Content -Path .gitignore -Value @'
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+poetry.lock
+
+.vscode/
+/data/
+/reports/
+/notebooks/.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
